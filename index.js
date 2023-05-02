@@ -1,8 +1,8 @@
 let counter = 0;
-let counterContent = document.querySelector(".counter-content");
-let counterButton = document.querySelector(".counter-button");
-let counterReset = document.querySelector(".counter-button-reset");
-let counterText = document.querySelector(".counter-text");
+let counterContent = document.querySelector(".js-counter-content");
+let counterButton = document.querySelector(".js-counter-button");
+let counterReset = document.querySelector(".js-counter-button-reset");
+let counterText = document.querySelector(".js-counter-text");
 
 counterButton.addEventListener("click", function () {
   counter = counter + 1;
