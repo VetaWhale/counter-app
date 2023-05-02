@@ -48,7 +48,7 @@ img {
     line-height: 25px;
   }
   .container {
-    margin: 0 15px;
+    padding: 0 15px;
     width: 100%;
   }
   button {
